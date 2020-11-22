@@ -1,0 +1,19 @@
+
+Evaluation of whole dataset by iterating through the entire dictionary and creating corresponding tensors every time I came across a new name.
+
+If N_hidden = 128, Accuracy is 0.550413 (11049 out of 20074)
+
+If N_hidden = 64, Accuracy is 0.589220 (11828 out of 20074)
+
+If N_hidden = 32, Accuracy is 0.0.548570 (11012 out of 20074)
+
+
+Systematic training by shuffling the entire dataset randomly and train the model through it 5 times.
+
+Obvious improvements are observed.
+
+Accuracy is 0.746687 (14989 out of 20074) for N_hidden=128
+
+Accuracy is 0.706536 (14183 out of 20074) for N_hidden= 64
+
+Accuracy is 0.726562 (14585 out of 20074) for N_hidden=32
